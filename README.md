@@ -1,4 +1,5 @@
 # IA-CNN
+
 ## Introduction
 In recent years, convolutional neural networks
 (CNNs) have been widely used in security, autonomous driving,
@@ -19,3 +20,14 @@ performance in the ordinary classification task. Note that our
 IA-CNN structure is an end-to-end model, the last conv-layer of
 which can extract key points from images automatically and is
 connected to the output prediction linearly.
+
+## Citation
+
+## Enviroment
+Our code is based on Python and Pytorch. Requirements of enviroments are as follow:
+*Python: 3.7
+*Pytorch: 1.5.0
+*torchvision: 0.6.0
+
+## How to use
+python3 main.py --model resnet --dataset CUB --model_type ex_gradcam
