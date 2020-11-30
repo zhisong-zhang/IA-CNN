@@ -112,8 +112,6 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, default='resnet', metavar='N',
                         help='vgg or resnet or mobilenet or alexnet or inception')
     parser.add_argument('--model_init', action='store_true', default=False, help='use Xavier Initialization')
-    parser.add_argument('--cutout', action='store_true', default=False, help='use cutout')
-    parser.add_argument('--cutout_length', type=int, default=64, help='cutout length')
     
     
     args = parser.parse_args()
