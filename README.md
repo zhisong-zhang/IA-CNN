@@ -34,6 +34,6 @@ python3 main.py --model resnet --dataset CUB --model_type ex_gradcam
 
 ## Acknowledgement
 Part of the code referred to the following open source code:
-https://github.com/ducminhkhoi/InterpretableCNN
-https://github.com/machine-perception-robotics-group/attention_branch_network
+* https://github.com/ducminhkhoi/InterpretableCNN
+* https://github.com/machine-perception-robotics-group/attention_branch_network
 
