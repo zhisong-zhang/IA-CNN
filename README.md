@@ -25,9 +25,15 @@ connected to the output prediction linearly.
 
 ## Enviroment
 Our code is based on Python and Pytorch. Requirements of enviroments are as follow:
-*Python: 3.7
-*Pytorch: 1.5.0
-*torchvision: 0.6.0
+* Python: 3.7
+* Pytorch: 1.5.0
+* torchvision: 0.6.0
 
 ## How to use
 python3 main.py --model resnet --dataset CUB --model_type ex_gradcam
+
+## Acknowledgement
+Part of the code referred to the following open source code:
+https://github.com/ducminhkhoi/InterpretableCNN
+https://github.com/machine-perception-robotics-group/attention_branch_network
+
